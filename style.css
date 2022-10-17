@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    background-color: lightcyan;
+    }
+  h3, #qimg, #option, #submit, #test_status
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #test_status
+  {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .wrong
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+  }
+  #option, #submit
+  {
+    padding-top: 30px;
+  }
+  #option
+  {
+      font-size: 20px;
+      font-weight: 600;
+  }
+  button
+    {
+      padding: 5px 10px;
+      background-color: lightgreen;
+      border-radius: 8px;
+      font-size: 18px;
+      color: blue;
+      border: none;
+      
+    }
+    #test label
+    {
+      font-size: 20px;
+      margin-left: 50px;
+    }
