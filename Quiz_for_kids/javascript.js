@@ -47,7 +47,7 @@ const questions =
   {
     //5
     'question' : "Name the fruit in image below:",
-    'img': "image/Apple.jpeg",
+    'img': "image/apple.jpeg",
     'a': "Banana",
     'b': "Watermelon",
     'c': "Strawberry",
