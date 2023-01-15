@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="maker.css">
+</head>
+<body>
+    <!--Title layout-->
+    <header>
+        <img class="logo" src="logo.jpg">
+        <h2 class="title">Title</h2>
+        <div id="date"></div>
+        <div id="time"></div>
+    </header>
+ 
+    <nav>
+        <ul>
+            <li><a href="#">Daily</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+        </ul>
+    </nav>
+   <div class="button">
+    <button id="cIn" class="in" onclick="cal.checkIn()" type="submit">IN</button>
+    <button id="c/OUT" class="out" onclick="checkOut()" type="submit">OUT</button>
+    </div>
+<!--
+    <dialog id="commentBox">
+    <form method="dialog">
+        <h3>Comment</h3>
+        <textarea id="txt" required></textarea>
+        <input id="comSave" onclick="checkIN()" type="submit" value="Save">
+    </form>
+</dialog>
+-->
+<script src="javascript.js"></script>
+</body>
