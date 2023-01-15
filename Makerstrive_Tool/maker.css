@@ -36,8 +36,11 @@ header
 {
     padding-right: 20px;
 }
-nav li{
+nav li:nth-child(1), li:nth-child(2){
     float: left;
+}
+nav li:nth-child(3){
+    float: right;
 }
 nav ul{
     margin: 0px;
