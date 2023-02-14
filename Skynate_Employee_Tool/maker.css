@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body
+{
+    background-color: antiquewhite;
+}
+header
+{
+    background-color:  rgb(197, 245, 242);
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo
+{   
+    float: left;
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+.title
+{
+    font-size: 40px;
+    float: right;
+    margin-right: 10px;
+}
+#date, #time
+{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#date
+{
+    padding-right: 20px;
+}
+nav li{
+    float: left;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+}
+nav li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+}
+nav li:nth-child(1)
+{
+    float: left;
+}
+nav li:nth-child(2)
+{
+    float: right;
+}
+nav li a:hover
+{
+    background-color: #111;
+}
+nav li:nth-child(1)
+{
+    background-color: green;
+}
+
+.button
+{
+    margin-left: 30%;
+}
+.in
+{
+    background-color: #04AA6D;
+    border: none;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    
+    border-radius: 10px;
+}
+.out
+{   
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    color: black;
+    padding: 30px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.in:hover , .out:hover
+{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+/*
+#comment
+{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 999;
+    width: 100vw; 
+    height: 100%; 
+    min-height: 100vh;
+    padding: 0; 
+    margin: 0; 
+    border: 0;
+    background: rgba(0,0,0,0.5);
+}
+#commentBox:is([open]) 
+{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+    
+}
+#commentBox form
+{
+    position: relative;
+    width: 450px; 
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+}
+#commentBox input[type=submit]
+{
+    border: 10px;
+    padding: 10px; 
+    margin: 10px 2px 0 0;
+    color: #fff; 
+    background: red;
+    cursor: pointer;
+}
+*/
+
+#comment textarea
+{
+    height: 80px;
+    width: 300px;
+    resize: none;
+    margin-left: 30%;
+}
+
