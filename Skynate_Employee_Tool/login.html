@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">    
+</head>
+<body>
+<h2>SKYNATE</h2>
+
+  <div class="imgcontainer">
+    <img src="avatar.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" id="uname" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>    
+    <input type="password" id="psw" placeholder="Enter Password" name="psw" required>
+        
+    <button id= 'login' onclick="login()" type="submit">Login</button>
+  </div>
+</body>
+<script>
+    let users = ['shubham','vaishnavi','kartik','admin'];
+    let pass = ['shubham','vaishnavi','kartik','admin'];
+
+function login()
+    {
+        username = document.getElementById('uname').value;
+        password = document.getElementById('psw').value;
+        console.log("user: ",username);
+        if (username == users[0] && password == pass[0])
+    {
+        window.location.href = 'shubham.html';
+        console.log("Shubham Logged In");
+    }
+        else if (username == users[1] && password == pass[1])
+    {
+        window.location.href = 'vaishnavi.html';
+        console.log("Vaishnavi Logged In");
+    }
+    else if (username == users[2] && password == pass[2])
+    {
+        window.location.href = 'kartik.html';
+        console.log("Kartik Logged In");
+    }
+    else if (username == users[3] && password == pass[3])
+    {
+        window.location.href = 'admin.html';
+        console.log("Admin Logged In");
+    }
+    else
+    {
+        alert("Wrong Username or Password! Please Try Again!");
+        console.log("Wrong Inputs!");
+    }
+    }
+
+</script>
+</html> 
