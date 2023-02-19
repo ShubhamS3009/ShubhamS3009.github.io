@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}  
+body 
+{
+background-color:#dddddd;
+}
+header
+{
+
+text-align: center;
+padding: 30px;
+background-color: white;
+font-size: 3em;
+margin: 0px;
+font-family: Bodoni MT;
+text-transform: uppercase;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+}
+nav li
+{
+    float:left;
+}
+nav li a
+{
+display: block;
+text-decoration: none;
+padding: 14px 16px;
+text-align: center;
+color: white;
+}
+.moon img
+{
+width: 300px;
+}
+.batman img, .balba img
+{
+  width: 350px;
+}
+.arrow
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+#arrow-left
+{
+  border-width: 20px 30px 20px 0;
+  border-color: transparent #000 transparent transparent;
+  position:absolute;
+  top: 600px;
+  left:25%;
+}
+#arrow-right
+{
+  border-width: 20px 0 20px 30px;
+  border-color: transparent transparent transparent #000;
+  position:absolute;
+  top: 600px;
+  right:25%;
+}
+
+li:nth-child(5)
+{
+    float: right;
+}
+li:nth-child(3)
+{
+background-color: green;
+}
+nav li a:hover
+{
+    background-color: #111;
+}
+main{
+    padding: 20px;
+}
+#top{
+    background-color: rgb(240, 209, 209);
+    margin: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+#main main
+ {
+    float: left;
+    width: 75%;
+    margin-left : 12.5%;
+    background-color: white;
+    text-align: center  ;
+    padding: 0 10px;
+    height: 150vh;
+  }
+ .content
+  {
+    margin: 50px 0;
+    
+  }
+  #main article:nth-child(2)
+  {
+    padding: 50px 0px;
+  }
+  #main:after {
+    clear: both;
+    display: table;
+    content: ""
+  }
+  .footer 
+  {
+    text-align: center;
+    background: black;
+    padding: 20px;
+    color: white;
+  }
